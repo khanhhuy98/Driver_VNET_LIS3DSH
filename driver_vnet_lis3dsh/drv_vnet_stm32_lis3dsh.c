@@ -24,9 +24,9 @@ int LIS3DSH_Read(uint8_t reg, uint8_t size) // doc 1 byte data tu thanh ghi reg
 }
 void Config_Reg(uint8_t reg, uint8_t value) // Config thanh ghi LIS3DSH
 {
-//	LIS3DSH_Write(CTRL_REG4, 0x4F, 1);
-//	LIS3DSH_Write(CTRL_REG6, 0x10, 1);
-//	LIS3DSH_Write(CTRL_REG1,0x01,1);
+//  LIS3DSH_Write(CTRL_REG4, 0x4F, 1);
+//  LIS3DSH_Write(CTRL_REG6, 0x10, 1);
+//  LIS3DSH_Write(CTRL_REG1,0x01,1);
 //  LIS3DSH_Write(CTRL_REG3,0x48,1);
 //  LIS3DSH_Write(CTRL_REG5,0x80,1);
 //  LIS3DSH_Write(THRS1_1,0x55,1);
